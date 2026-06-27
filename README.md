@@ -1,17 +1,11 @@
-# Quartz v5
+# Youplay Public Notes
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+以 [Quartz 5](https://quartz.jzhao.xyz/) 建置的公開 Obsidian 筆記網站。
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## 發布筆記
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+1. 只把確認可公開的筆記與必要附件複製到 `content/`。
+2. `content/` 內的 Markdown 會自動發布；不想發布的單篇筆記請設定 `draft: true`。
+3. 執行 `npx quartz build` 本機檢查後再提交。
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+圖片、PDF、音訊等非 Markdown 檔案仍可能被公開，因此不要把未審核的附件放進 `content/`。
